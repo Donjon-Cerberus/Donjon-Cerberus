@@ -28,14 +28,14 @@ Cerberus is an **AI-powered security platform** built by Ledger Donjon that cont
 
 A sample of security issues Cerberus has reported to upstream maintainers. We commit to responsible disclosure: when a finding is realistically exploitable, we report it privately through the project's security channel and follow their coordinated-disclosure process before any public mention. For lower-impact issues, we open a public issue or pull request directly so the conversation happens openly with maintainers.
 
-| Project | Vulnerability | Severity | Reference |
-| --- | --- | :---: | --- |
-| **KDE Kleopatra** | Local privilege escalation on Windows via single-instance mechanism | High | [CVE-2026-41527](https://kde.org/info/security/advisory-20260408-1.txt) |
-| **Nethermind** | Duplicate-signature quorum bypass in XDC vote aggregation | Critical | [PR #11027](https://github.com/NethermindEth/nethermind/pull/11027) |
-| **Yubico** *(libfido2, python-fido2, YubiKey Manager)* | DLL search-path hijack on Windows | High (CVSS 7.0) | [CVE-2026-40947](https://www.yubico.com/support/security-advisories/ysa-2026-01/) |
-| **Wasabi Wallet** | OS command injection in URL opener via crafted "Read More" link | High | [Issue #14410](https://github.com/WalletWasabi/WalletWasabi/issues/14410) |
-| **BTCPay Server** | 6 access-control & tampering issues — IDOR, cross-store/cross-tenant escalation, plan/price tampering | High–Critical | [Commits](https://github.com/btcpayserver/btcpayserver/commits?author=Donjon-Cerberus) |
-| **Clawvisor** | Cross-tenant adapter overwrite in generated adapter installation | Critical | [PR #302](https://github.com/clawvisor/clawvisor/pull/302) |
+| Project | Date | Vulnerability | Severity | Reference |
+| --- | :---: | --- | :---: | --- |
+| **KDE Kleopatra** | 2026-04-08 | Local privilege escalation on Windows via single-instance mechanism | High | [CVE-2026-41527](https://kde.org/info/security/advisory-20260408-1.txt) |
+| **Nethermind** | 2026-04-03 | Duplicate-signature quorum bypass in XDC vote aggregation | Critical | [PR #11027](https://github.com/NethermindEth/nethermind/pull/11027) |
+| **Yubico** *(libfido2, python-fido2, YubiKey Manager)* | 2026-04-15 | DLL search-path hijack on Windows | High (CVSS 7.0) | [CVE-2026-40947](https://www.yubico.com/support/security-advisories/ysa-2026-01/) |
+| **Wasabi Wallet** | 2026-03-16 | OS command injection in URL opener via crafted "Read More" link | High | [Issue #14410](https://github.com/WalletWasabi/WalletWasabi/issues/14410) |
+| **BTCPay Server** | 2026-03-13 – 03-15 | 6 access-control & tampering issues — IDOR, cross-store/cross-tenant escalation, plan/price tampering | High–Critical | [Commits](https://github.com/btcpayserver/btcpayserver/commits?author=Donjon-Cerberus) |
+| **Clawvisor** | 2026-04-24 | Cross-tenant adapter overwrite in generated adapter installation | Critical | [PR #302](https://github.com/clawvisor/clawvisor/pull/302) |
 
 <br>
 
