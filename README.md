@@ -30,12 +30,12 @@ A sample of security issues Cerberus has reported to upstream maintainers. We co
 
 | Project | Date | Vulnerability | Severity | Reference |
 | --- | :---: | --- | :---: | --- |
+| **Clawvisor** | 2026-04-24 | Cross-tenant adapter overwrite in generated adapter installation | Critical | [PR #302](https://github.com/clawvisor/clawvisor/pull/302) |
+| **Yubico** *(libfido2, python-fido2, YubiKey Manager)* | 2026-04-15 | DLL search-path hijack on Windows | High (CVSS 7.0) | [CVE-2026-40947](https://www.yubico.com/support/security-advisories/ysa-2026-01/) |
 | **KDE Kleopatra** | 2026-04-08 | Local privilege escalation on Windows via single-instance mechanism | High | [CVE-2026-41527](https://kde.org/info/security/advisory-20260408-1.txt) |
 | **Nethermind** | 2026-04-03 | Duplicate-signature quorum bypass in XDC vote aggregation | Critical | [PR #11027](https://github.com/NethermindEth/nethermind/pull/11027) |
-| **Yubico** *(libfido2, python-fido2, YubiKey Manager)* | 2026-04-15 | DLL search-path hijack on Windows | High (CVSS 7.0) | [CVE-2026-40947](https://www.yubico.com/support/security-advisories/ysa-2026-01/) |
 | **Wasabi Wallet** | 2026-03-16 | OS command injection in URL opener via crafted "Read More" link | High | [Issue #14410](https://github.com/WalletWasabi/WalletWasabi/issues/14410) |
 | **BTCPay Server** | 2026-03-13 – 03-15 | 6 access-control & tampering issues — IDOR, cross-store/cross-tenant escalation, plan/price tampering | High–Critical | [Commits](https://github.com/btcpayserver/btcpayserver/commits?author=Donjon-Cerberus) |
-| **Clawvisor** | 2026-04-24 | Cross-tenant adapter overwrite in generated adapter installation | Critical | [PR #302](https://github.com/clawvisor/clawvisor/pull/302) |
 
 <br>
 
