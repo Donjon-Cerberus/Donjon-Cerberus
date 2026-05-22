@@ -30,6 +30,7 @@ A sample of security issues Cerberus has reported to upstream maintainers. We co
 
 | Project | Date | Vulnerability | Severity | Reference |
 | --- | :---: | --- | :---: | --- |
+| **Sandboxie-Plus** | 2026-05-22 | APC injection sandbox escape via unvalidated `GuiServer` hook registration | High (CVSS 7.7) | [CVE-2026-45313](https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-rmv3-fhg3-75xh) |
 | **Clawvisor** | 2026-04-24 | Cross-tenant adapter overwrite in generated adapter installation | Critical | [PR #302](https://github.com/clawvisor/clawvisor/pull/302) |
 | **Yubico** *(libfido2, python-fido2, YubiKey Manager)* | 2026-04-15 | DLL search-path hijack on Windows | High (CVSS 7.0) | [CVE-2026-40947](https://www.yubico.com/support/security-advisories/ysa-2026-01/) |
 | **KDE Kleopatra** | 2026-04-08 | Local privilege escalation on Windows via single-instance mechanism | High | [CVE-2026-41527](https://kde.org/info/security/advisory-20260408-1.txt) |
