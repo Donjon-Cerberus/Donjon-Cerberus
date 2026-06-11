@@ -30,6 +30,8 @@ A sample of security issues Cerberus has reported to upstream maintainers. We co
 
 | Project | Date | Vulnerability | Severity | Reference |
 | --- | :---: | --- | :---: | --- |
+| **Envoy Gateway** | 2026-06-05 | Path-normalization bypass in `EnvoyExtensionPolicy` Lua enables arbitrary file read of K8s SA tokens and TLS certs | Critical (CVSS 9.1) | [CVE-2026-53713](https://github.com/envoyproxy/gateway/security/advisories/GHSA-wcrf-9vrr-854f) |
+| **Envoy Gateway** | 2026-06-05 | Unauthenticated xDS SotW access leaks TLS keys and routing config in GatewayNamespaceMode | High (CVSS 7.4) | [CVE-2026-53714](https://github.com/envoyproxy/gateway/security/advisories/GHSA-22xc-xg2r-9j7v) |
 | **Sandboxie-Plus** | 2026-05-22 | APC injection sandbox escape via unvalidated `GuiServer` hook registration | High (CVSS 7.7) | [CVE-2026-45313](https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-rmv3-fhg3-75xh) |
 | **Clawvisor** | 2026-04-24 | Cross-tenant adapter overwrite in generated adapter installation | Critical | [PR #302](https://github.com/clawvisor/clawvisor/pull/302) |
 | **Yubico** *(libfido2, python-fido2, YubiKey Manager)* | 2026-04-15 | DLL search-path hijack on Windows | High (CVSS 7.0) | [CVE-2026-40947](https://www.yubico.com/support/security-advisories/ysa-2026-01/) |
